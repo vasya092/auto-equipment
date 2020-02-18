@@ -1,0 +1,57 @@
+.port-wrapper{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.port-item img {
+    object-fit: contain;
+    width: 181px;
+    height: 137px !important;
+}
+.port-item{
+text-align:center;
+}
+
+.port-car-wrapper{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.port-car-item img {
+    object-fit: contain;
+    width: 91%;
+    height: 91% !important;
+}
+
+p.car-item {
+    display: block;
+    color: white;
+    font-size:15px;
+    background: #00000057;
+    width: 91%;
+    position: relative;
+    top: -63px;
+    min-height: 62px;
+    padding: 5px 10px;
+}
+
+.widget-area.secondary {
+    display: none !important;
+}
+.port-car-item {
+     margin-bottom: -43px;
+}
+h1.tax-title {
+    font-weight: 600;
+    font-size: 59px;
+    margin-bottom: 7px;
+}
+.single-auto-portfolio p#breadcrumbs {
+    /*padding-left:40px;*/
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+h1.port-post-title {
+    font-size: 33px;
+/*padding-left:40px;*/
+}
+.gallery-icon{border:0px !important}
